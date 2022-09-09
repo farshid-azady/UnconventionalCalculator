@@ -3,9 +3,11 @@ let currentResult = defaultResult;
 
 // Addition Calculation
 function add() {
-	currentResult= currentResult + userInput.value;
-	
-    outputResult(currentResult, 'CalculationDescriptor');
+	const enteredNumber = userInput.value;
+	const DescriptionResult = `${currentResult} + ${enteredNumber}`;
+	currentResult = currentResult + +enteredNumber;
+
+	outputResult(currentResult, DescriptionResult);
 }
 
 addBtn.addEventListener("click", add);

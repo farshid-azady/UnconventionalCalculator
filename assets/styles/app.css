@@ -1,13 +1,13 @@
 @font-face {
-	src: url(/assets/Blocal-regular.woff) format("woff");
-	font-family: "blocal";
+	src: url(/assets/Milian-regular.ttf) format("woff");
+	font-family: "milian";
 }
 * {
 	box-sizing: border-box;
 }
 
 html {
-	font-family: "blocal", "Roboto", open-sans;
+	font-family: "milian", "Roboto", open-sans;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 header {
-	font-family: blocal;
+	font-family:milian;
 	background: #2e4150;
 	color: white;
 	padding: 1rem;

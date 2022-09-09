@@ -1,9 +1,13 @@
+@font-face{
+  src: url(./assets/Blocal-regular.woff) format('woff');
+  font-family:'blocal'
+}
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Roboto', open-sans;
+  font-family: 'blocal','Roboto', open-sans;
 }
 
 body {
@@ -11,7 +15,8 @@ body {
 }
 
 header {
-  background: #023d6d;
+  font-family: blocal ;
+  background:#2e4150;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -52,7 +57,7 @@ header {
 
 #calculator button {
   font: inherit;
-  background: #023d6d;
+  background: #2e4150;
   color: white;
   border: 1px solid #023d6d;
   padding: 1rem;

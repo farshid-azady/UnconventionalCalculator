@@ -42,21 +42,21 @@ function subtract() {
 	const initialresult = currentResult;
 	currentResult -= enteredNumber;
 	createAndWriteOutput("-", initialresult, enteredNumber);
-    writeToLog("SUBTRACT", enteredNumber, initialresult, currentResult);
+	writeToLog("SUBTRACT", enteredNumber, initialresult, currentResult);
 }
 function divide() {
 	const enteredNumber = getUserNumberInput();
 	const initialresult = currentResult;
 	currentResult /= enteredNumber;
 	createAndWriteOutput("/", initialresult, enteredNumber);
-    writeToLog("DIVIDE", enteredNumber, initialresult, currentResult);
+	writeToLog("DIVIDE", enteredNumber, initialresult, currentResult);
 }
 function multiply() {
 	const enteredNumber = getUserNumberInput();
 	const initialresult = currentResult;
 	currentResult *= enteredNumber;
 	createAndWriteOutput("*", initialresult, enteredNumber);
-    writeToLog("MULTIPLY", enteredNumber, initialresult, currentResult);
+	writeToLog("MULTIPLY", enteredNumber, initialresult, currentResult);
 }
 
 addBtn.addEventListener("click", add);
